@@ -1,0 +1,23 @@
+{
+  "name": "seteam-role",
+  "version": "0.0.2",
+  "summary": "Puppet Labs SE Team Role Module",
+  "author": "Puppet Labs SE Team",
+  "description": "Top-level profile-aggregator module to defining SE-Team-specific deployable roles",
+  "dependencies": [
+    {
+      "name": "seteam/profile",
+      "version_requirement": "\u003e\u003d 0.0.1"
+    }
+  ],
+  "types": [],
+  "checksums": {
+    ".travis.yml": "cd5c9f25b8c672db297a346a7f9a8e21",
+    "Modulefile": "37cbfc4e9c179e786e13f2bbac808a12",
+    "README.md": "bf867e1086a778f2cc5416c17d2ee828",
+    "manifests/puppetmaster.pp": "e6455830687cb1aab02cede3c9c9da6d"
+  },
+  "source": "https://github.com/puppetlabs-seteam/puppet-module-role.git",
+  "project_page": "https://github.com/puppetlabs-seteam/puppet-module-role",
+  "license": "Apache 2.0"
+}
