@@ -1,0 +1,27 @@
+{
+  "name": "seteam-tomcat",
+  "version": "0.0.3",
+  "summary": "Puppet Labs SE Team Tomcat Module",
+  "author": "Puppet Labs SE Team",
+  "description": "Deploys and manages a Tomcat service",
+  "dependencies": [
+    {
+      "name": "puppetlabs/java",
+      "version_requirement": "\u003e\u003d 0.2.0"
+    }
+  ],
+  "types": [],
+  "checksums": {
+    ".travis.yml": "2965aa0ae01200acf188c18fe73b2d33",
+    "Modulefile": "84021c5db1fb9012c1736e7a85781786",
+    "manifests/Modulefile": "bbd2e224d51cf319b5ada353ceada821",
+    "manifests/app/admin.pp": "4737649c803b2e96bb4057fc088bc739",
+    "manifests/app/docs.pp": "95b98e1f1d3c73fb76361295c1786dea",
+    "manifests/init.pp": "2d496005d0530eb59407755972f17bc2",
+    "manifests/params.pp": "53c02d485d449894ee9757edbed791ed",
+    "manifests/war.pp": "48ad40187d0a8663c750107df7ac0a24"
+  },
+  "source": "https://github.com/puppetlabs-seteam/puppet-module-tomcat.git",
+  "project_page": "https://github.com/puppetlabs-seteam/puppet-module-tomcat",
+  "license": "Apache 2.0"
+}
